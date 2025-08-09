@@ -1,122 +1,56 @@
-[17:22:08] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
-[17:22:08] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
-[17:22:08] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLServerTweaker
-[17:22:08] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2860 for Minecraft 1.12.2 loading
-[17:22:08] [main/INFO] [FML]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_462, running on Linux:amd64:6.8.0-1030-azure, installed at /usr/lib/jvm/java-8-openjdk-amd64/jre
-[17:22:09] [main/INFO] [FML]: Searching /workspaces/refactored-train/servidor_minecraft/./mods for mods
-[17:22:09] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in Bloodmoon-MC1.12.2-1.5.3.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
-[17:22:09] [main/WARN] [FML]: The coremod lumien.bloodmoon.asm.LoadingPlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
-[17:22:09] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in Xaeros_Minimap_25.2.10_Forge_1.12.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
-[17:22:09] [main/WARN] [FML]: The coremod XaeroMinimapPlugin (xaero.common.core.XaeroMinimapPlugin) is not signed!
-[17:22:09] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[17:22:09] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[17:22:09] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[17:22:09] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[17:22:09] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[17:22:10] [main/INFO] [FML]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
-[17:22:10] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[17:22:10] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[17:22:10] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[17:22:11] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[17:22:11] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
-[17:22:11] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
-[17:22:11] [main/INFO] [STDOUT]: [xaero.common.core.transformer.ClassNodeTransformer:transform:29]: Transforming class net.minecraft.server.MinecraftServer net.minecraft.server.MinecraftServer
-[17:22:11] [main/INFO] [STDOUT]: [xaero.common.core.transformer.ClassNodeTransformer:transform:29]: Transforming class pl net.minecraft.server.management.PlayerList
-[17:22:11] [main/INFO] [STDOUT]: [xaero.common.core.transformer.ClassNodeTransformer:transform:29]: Transforming class aed net.minecraft.entity.player.EntityPlayer
-[17:22:11] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
-[17:22:13] [main/INFO] [STDOUT]: [xaero.common.core.transformer.ClassNodeTransformer:transform:29]: Transforming class oq net.minecraft.entity.player.EntityPlayerMP
-[17:22:14] [main/INFO] [STDOUT]: [xaero.common.core.transformer.ClassNodeTransformer:transform:29]: Transforming class bfc net.minecraft.world.storage.SaveFormatOld
-[17:22:14] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.12.2
-[17:22:14] [Server thread/INFO] [FML]: MinecraftForge v14.23.5.2860 Initialized
-[17:22:14] [Server thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
-[17:22:15] [Server thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
-[17:22:15] [Server thread/INFO] [FML]: Replaced 1227 ore ingredients
-[17:22:15] [Server thread/INFO] [FML]: Searching /workspaces/refactored-train/servidor_minecraft/./mods for mods
-[17:22:16] [Server thread/INFO] [FML]: Forge Mod Loader has identified 14 mods to load
-[17:22:16] [Server thread/WARN] [FML]: Missing English translation for FML: assets/fml/lang/en_us.lang
-[17:22:16] [Server thread/WARN] [FML]: Missing English translation for darknesslib: assets/darknesslib/lang/en_us.lang
-[17:22:16] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, xaerominimap_core, slender, bloodmoon, darknesslib, grue, harvestersnight, jmr, xaerominimap, zmonsters, weeping-angels] at CLIENT
-[17:22:16] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, xaerominimap_core, slender, bloodmoon, darknesslib, grue, harvestersnight, jmr, xaerominimap, zmonsters, weeping-angels] at SERVER
-[17:22:16] [Server thread/INFO] [FML]: Processing ObjectHolder annotations
-[17:22:16] [Server thread/INFO] [FML]: Found 1278 ObjectHolder annotations
-[17:22:16] [Server thread/INFO] [FML]: Identifying ItemStackHolder annotations
-[17:22:16] [Server thread/INFO] [FML]: Found 0 ItemStackHolder annotations
-[17:22:17] [Server thread/INFO] [STDOUT]: [xaero.common.core.transformer.ClassNodeTransformer:transform:29]: Transforming class axw net.minecraft.world.chunk.Chunk
-[17:22:17] [Server thread/INFO] [FML]: Configured a dormant chunk cache size of 0
-[17:22:17] [Forge Version Check/INFO] [forge.VersionCheck]: [grue] Starting version check at https://raw.githubusercontent.com/Shinoow/Grue/master/version.json
-[17:22:17] [Server thread/INFO] [DarknessLibAPI]: darknesslib added a Light Provider function!
-[17:22:17] [Server thread/INFO] [FML]: Applying holder lookups
-[17:22:17] [Server thread/INFO] [FML]: Holder lookups applied
-[17:22:17] [Server thread/INFO] [FML]: Applying holder lookups
-[17:22:17] [Server thread/INFO] [FML]: Holder lookups applied
-[17:22:17] [Server thread/INFO] [FML]: Applying holder lookups
-[17:22:17] [Server thread/INFO] [FML]: Holder lookups applied
-[17:22:17] [Server thread/INFO] [FML]: Applying holder lookups
-[17:22:17] [Server thread/INFO] [FML]: Holder lookups applied
-[17:22:17] [Server thread/INFO] [FML]: Injecting itemstacks
-[17:22:17] [Server thread/INFO] [FML]: Itemstack injection complete
-[17:22:17] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Loading properties
-[17:22:17] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Default game type: SURVIVAL
-[17:22:17] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Generating keypair
-[17:22:17] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting Minecraft server on *:25565
-[17:22:17] [Forge Version Check/INFO] [forge.VersionCheck]: [grue] Found status: UP_TO_DATE Target: null
-[17:22:17] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
-[17:22:17] [Server thread/INFO] [net.minecraft.network.NetworkSystem]: Using epoll channel type
-[17:22:17] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[17:22:17] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: The server will make no attempt to authenticate usernames. Beware.
-[17:22:17] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[17:22:17] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: To change this, set "online-mode" to "true" in the server.properties file.
-[17:22:18] [Server thread/INFO] [FML]: Applying holder lookups
-[17:22:18] [Server thread/INFO] [FML]: Holder lookups applied
-[17:22:18] [Server thread/INFO] [xaero.minimap.XaeroMinimap]: Loading Xaero's Minimap - Stage 1/2 (Server)
-[17:22:18] [Server thread/INFO] [Weeping Angels]: Checking for Vivecraft Client...
-[17:22:18] [Server thread/INFO] [Weeping Angels]: Vivecraft not detected!
-[17:22:18] [Server thread/INFO] [FML]: Injecting itemstacks
-[17:22:18] [Server thread/INFO] [FML]: Itemstack injection complete
-[17:22:18] [Server thread/INFO] [DarknessLibAPI]: minecraft:brown_mushroom has been added to the Dynamic Lights List with Light level 1!
-[17:22:18] [Server thread/INFO] [DarknessLibAPI]: minecraft:torch has been added to the Dynamic Lights List with Light level 14!
-[17:22:18] [Server thread/INFO] [DarknessLibAPI]: minecraft:redstone_torch has been added to the Dynamic Lights List with Light level 7!
-[17:22:18] [Server thread/INFO] [DarknessLibAPI]: minecraft:glowstone has been added to the Dynamic Lights List with Light level 15!
-[17:22:18] [Server thread/INFO] [DarknessLibAPI]: minecraft:lit_pumpkin has been added to the Dynamic Lights List with Light level 15!
-[17:22:18] [Server thread/INFO] [DarknessLibAPI]: minecraft:end_portal_frame has been added to the Dynamic Lights List with Light level 1!
-[17:22:18] [Server thread/INFO] [DarknessLibAPI]: minecraft:dragon_egg has been added to the Dynamic Lights List with Light level 1!
-[17:22:18] [Server thread/INFO] [DarknessLibAPI]: minecraft:ender_chest has been added to the Dynamic Lights List with Light level 7!
-[17:22:18] [Server thread/INFO] [DarknessLibAPI]: minecraft:beacon has been added to the Dynamic Lights List with Light level 15!
-[17:22:18] [Server thread/INFO] [DarknessLibAPI]: minecraft:sea_lantern has been added to the Dynamic Lights List with Light level 15!
-[17:22:18] [Server thread/INFO] [DarknessLibAPI]: minecraft:end_rod has been added to the Dynamic Lights List with Light level 14!
-[17:22:18] [Server thread/INFO] [DarknessLibAPI]: minecraft:magma has been added to the Dynamic Lights List with Light level 3!
-[17:22:18] [Server thread/INFO] [DarknessLibAPI]: zmonsters:redbulblight has been added to the Dynamic Lights List with Light level 15!
-[17:22:18] [Server thread/INFO] [DarknessLibAPI]: zmonsters:orangebulblight has been added to the Dynamic Lights List with Light level 15!
-[17:22:18] [Server thread/INFO] [DarknessLibAPI]: zmonsters:yellowbulblight has been added to the Dynamic Lights List with Light level 15!
-[17:22:18] [Server thread/INFO] [DarknessLibAPI]: zmonsters:lightgreenbulblight has been added to the Dynamic Lights List with Light level 15!
-[17:22:18] [Server thread/INFO] [DarknessLibAPI]: zmonsters:greenbulblight has been added to the Dynamic Lights List with Light level 15!
-[17:22:18] [Server thread/INFO] [DarknessLibAPI]: zmonsters:lightbluebulblight has been added to the Dynamic Lights List with Light level 15!
-[17:22:18] [Server thread/INFO] [DarknessLibAPI]: zmonsters:bluebulblight has been added to the Dynamic Lights List with Light level 15!
-[17:22:18] [Server thread/INFO] [DarknessLibAPI]: zmonsters:pinkbulblight has been added to the Dynamic Lights List with Light level 15!
-[17:22:18] [Server thread/INFO] [DarknessLibAPI]: zmonsters:magentabulblight has been added to the Dynamic Lights List with Light level 15!
-[17:22:18] [Server thread/INFO] [DarknessLibAPI]: zmonsters:purplebulblight has been added to the Dynamic Lights List with Light level 15!
-[17:22:18] [Server thread/INFO] [DarknessLibAPI]: zmonsters:brownbulblight has been added to the Dynamic Lights List with Light level 15!
-[17:22:18] [Server thread/INFO] [DarknessLibAPI]: zmonsters:lightgreybulblight has been added to the Dynamic Lights List with Light level 15!
-[17:22:18] [Server thread/INFO] [DarknessLibAPI]: zmonsters:cyanbulblight has been added to the Dynamic Lights List with Light level 15!
-[17:22:18] [Server thread/INFO] [DarknessLibAPI]: zmonsters:greybulblight has been added to the Dynamic Lights List with Light level 15!
-[17:22:18] [Server thread/INFO] [DarknessLibAPI]: zmonsters:blackbulblight has been added to the Dynamic Lights List with Light level 15!
-[17:22:18] [Server thread/INFO] [DarknessLibAPI]: zmonsters:whitebulblight has been added to the Dynamic Lights List with Light level 15!
-[17:22:18] [Server thread/INFO] [xaero.minimap.XaeroMinimap]: Loading Xaero's Minimap - Stage 2/2 (Server)
-[17:22:18] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: AHEAD Target: null
-[17:22:18] [Forge Version Check/INFO] [forge.VersionCheck]: [darknesslib] Starting version check at https://raw.githubusercontent.com/Shinoow/DarknessLib/master/version.json
-[17:22:18] [Forge Version Check/INFO] [forge.VersionCheck]: [darknesslib] Found status: UP_TO_DATE Target: null
-[17:22:18] [Forge Version Check/INFO] [forge.VersionCheck]: [weeping-angels] Starting version check at https://raw.githubusercontent.com/Suffril/Weeping-Angels-Mod/master/update.json
-[17:22:18] [Server thread/INFO] [FML]: Forge Mod Loader has successfully loaded 14 mods
-[17:22:18] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Preparing level "world"
-[17:22:18] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
-[17:22:18] [Server thread/INFO] [FML]: Applying holder lookups
-[17:22:18] [Server thread/INFO] [FML]: Holder lookups applied
-[17:22:18] [Server thread/INFO] [FML]: Loading dimension 0 (world) (net.minecraft.server.dedicated.DedicatedServer@5a5c3bd0)
-[17:22:19] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 498 advancements
-[17:22:19] [Server thread/INFO] [FML]: Loading dimension -1 (world) (net.minecraft.server.dedicated.DedicatedServer@5a5c3bd0)
-[17:22:19] [Server thread/INFO] [FML]: Loading dimension 1 (world) (net.minecraft.server.dedicated.DedicatedServer@5a5c3bd0)
-[17:22:19] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
-[17:22:20] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 88%
-[17:22:20] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Done (1.936s)! For help, type "help" or "?"
-[17:22:20] [Server thread/INFO] [FML]: Unloading dimension -1
-[17:22:20] [Server thread/INFO] [FML]: Unloading dimension 1
+[21:12:55] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[21:12:55] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[21:12:55] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[21:12:55] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2860 for Minecraft 1.12.2 loading
+[21:12:55] [main/INFO] [FML]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_462, running on Linux:amd64:6.8.0-1030-azure, installed at /usr/lib/jvm/java-8-openjdk-amd64/jre
+[21:12:55] [main/INFO] [FML]: Searching /workspaces/refactored-train/servidor_minecraft/./mods for mods
+[21:12:55] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[21:12:55] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[21:12:55] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[21:12:55] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[21:12:55] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[21:12:56] [main/INFO] [FML]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
+[21:12:56] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[21:12:56] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[21:12:57] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[21:12:57] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[21:12:57] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
+[21:13:00] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.12.2
+[21:13:00] [Server thread/INFO] [FML]: MinecraftForge v14.23.5.2860 Initialized
+[21:13:00] [Server thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[21:13:00] [Server thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
+[21:13:00] [Server thread/INFO] [FML]: Replaced 1227 ore ingredients
+[21:13:00] [Server thread/INFO] [FML]: Searching /workspaces/refactored-train/servidor_minecraft/./mods for mods
+[21:13:00] [Server thread/INFO] [FML]: Forge Mod Loader has identified 4 mods to load
+[21:13:00] [Server thread/WARN] [FML]: Missing English translation for FML: assets/fml/lang/en_us.lang
+[21:13:01] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge] at CLIENT
+[21:13:01] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge] at SERVER
+[21:13:01] [Server thread/INFO] [FML]: Processing ObjectHolder annotations
+[21:13:01] [Server thread/INFO] [FML]: Found 1168 ObjectHolder annotations
+[21:13:01] [Server thread/INFO] [FML]: Identifying ItemStackHolder annotations
+[21:13:01] [Server thread/INFO] [FML]: Found 0 ItemStackHolder annotations
+[21:13:01] [Server thread/INFO] [FML]: Configured a dormant chunk cache size of 0
+[21:13:01] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[21:13:01] [Server thread/INFO] [FML]: Applying holder lookups
+[21:13:01] [Server thread/INFO] [FML]: Holder lookups applied
+[21:13:01] [Server thread/INFO] [FML]: Applying holder lookups
+[21:13:01] [Server thread/INFO] [FML]: Holder lookups applied
+[21:13:01] [Server thread/INFO] [FML]: Applying holder lookups
+[21:13:01] [Server thread/INFO] [FML]: Holder lookups applied
+[21:13:01] [Server thread/INFO] [FML]: Applying holder lookups
+[21:13:01] [Server thread/INFO] [FML]: Holder lookups applied
+[21:13:01] [Server thread/INFO] [FML]: Injecting itemstacks
+[21:13:01] [Server thread/INFO] [FML]: Itemstack injection complete
+[21:13:01] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Loading properties
+[21:13:01] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Default game type: SURVIVAL
+[21:13:01] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Generating keypair
+[21:13:01] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting Minecraft server on *:25565
+[21:13:01] [Server thread/INFO] [net.minecraft.network.NetworkSystem]: Using epoll channel type
+[21:13:01] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: **** FAILED TO BIND TO PORT!
+[21:13:01] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: The exception was: io.netty.channel.unix.Errors$NativeIoException: bind(..) failed: Address already in use
+[21:13:01] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: Perhaps a server is already running on that port?
+[21:13:01] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[21:13:01] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
+[21:13:01] [Server thread/INFO] [FML]: The state engine was in incorrect state POSTINITIALIZATION and forced into state SERVER_STOPPED. Errors may have been discarded.
+[21:13:02] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[21:13:02] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
