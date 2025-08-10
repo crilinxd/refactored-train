@@ -1,139 +1,148 @@
-[19:22:22] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
-[19:22:22] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
-[19:22:22] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLServerTweaker
-[19:22:23] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2860 for Minecraft 1.12.2 loading
-[19:22:23] [main/INFO] [FML]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_462, running on Linux:amd64:6.8.0-1030-azure, installed at /usr/lib/jvm/java-8-openjdk-amd64/jre
-[19:22:23] [main/INFO] [FML]: Searching /workspaces/refactored-train/servidor_minecraft/./mods for mods
-[19:22:23] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in Bloodmoon-MC1.12.2-1.5.3.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
-[19:22:23] [main/WARN] [FML]: The coremod lumien.bloodmoon.asm.LoadingPlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
-[19:22:23] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in Xaeros_Minimap_25.2.10_Forge_1.12.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
-[19:22:23] [main/WARN] [FML]: The coremod XaeroMinimapPlugin (xaero.common.core.XaeroMinimapPlugin) is not signed!
-[19:22:23] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[19:22:23] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[19:22:23] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[19:22:23] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[19:22:23] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[19:22:24] [main/INFO] [FML]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
-[19:22:24] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[19:22:24] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[19:22:24] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[19:22:24] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[19:22:24] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
-[19:22:24] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
-[19:22:24] [main/INFO] [STDOUT]: [xaero.common.core.transformer.ClassNodeTransformer:transform:29]: Transforming class net.minecraft.server.MinecraftServer net.minecraft.server.MinecraftServer
-[19:22:25] [main/INFO] [STDOUT]: [xaero.common.core.transformer.ClassNodeTransformer:transform:29]: Transforming class pl net.minecraft.server.management.PlayerList
-[19:22:25] [main/INFO] [STDOUT]: [xaero.common.core.transformer.ClassNodeTransformer:transform:29]: Transforming class aed net.minecraft.entity.player.EntityPlayer
-[19:22:25] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
-[19:22:26] [main/INFO] [STDOUT]: [xaero.common.core.transformer.ClassNodeTransformer:transform:29]: Transforming class oq net.minecraft.entity.player.EntityPlayerMP
-[19:22:27] [main/INFO] [STDOUT]: [xaero.common.core.transformer.ClassNodeTransformer:transform:29]: Transforming class bfc net.minecraft.world.storage.SaveFormatOld
-[19:22:27] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.12.2
-[19:22:27] [Server thread/INFO] [FML]: MinecraftForge v14.23.5.2860 Initialized
-[19:22:27] [Server thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
-[19:22:28] [Server thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
-[19:22:28] [Server thread/INFO] [FML]: Replaced 1227 ore ingredients
-[19:22:28] [Server thread/INFO] [FML]: Searching /workspaces/refactored-train/servidor_minecraft/./mods for mods
-[19:22:29] [Server thread/INFO] [FML]: Forge Mod Loader has identified 14 mods to load
-[19:22:29] [Server thread/WARN] [FML]: Missing English translation for FML: assets/fml/lang/en_us.lang
-[19:22:29] [Server thread/WARN] [FML]: Missing English translation for darknesslib: assets/darknesslib/lang/en_us.lang
-[19:22:29] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, xaerominimap_core, slender, bloodmoon, darknesslib, grue, harvestersnight, jmr, xaerominimap, zmonsters, weeping-angels] at CLIENT
-[19:22:29] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, xaerominimap_core, slender, bloodmoon, darknesslib, grue, harvestersnight, jmr, xaerominimap, zmonsters, weeping-angels] at SERVER
-[19:22:30] [Server thread/INFO] [FML]: Processing ObjectHolder annotations
-[19:22:30] [Server thread/INFO] [FML]: Found 1278 ObjectHolder annotations
-[19:22:30] [Server thread/INFO] [FML]: Identifying ItemStackHolder annotations
-[19:22:30] [Server thread/INFO] [FML]: Found 0 ItemStackHolder annotations
-[19:22:30] [Server thread/INFO] [STDOUT]: [xaero.common.core.transformer.ClassNodeTransformer:transform:29]: Transforming class axw net.minecraft.world.chunk.Chunk
-[19:22:30] [Server thread/INFO] [FML]: Configured a dormant chunk cache size of 0
-[19:22:30] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
-[19:22:30] [Server thread/INFO] [DarknessLibAPI]: darknesslib added a Light Provider function!
-[19:22:30] [Server thread/INFO] [FML]: Applying holder lookups
-[19:22:30] [Server thread/INFO] [FML]: Holder lookups applied
-[19:22:30] [Server thread/INFO] [FML]: Applying holder lookups
-[19:22:30] [Server thread/INFO] [FML]: Holder lookups applied
-[19:22:30] [Server thread/INFO] [FML]: Applying holder lookups
-[19:22:30] [Server thread/INFO] [FML]: Holder lookups applied
-[19:22:30] [Server thread/INFO] [FML]: Applying holder lookups
-[19:22:30] [Server thread/INFO] [FML]: Holder lookups applied
-[19:22:30] [Server thread/INFO] [FML]: Injecting itemstacks
-[19:22:30] [Server thread/INFO] [FML]: Itemstack injection complete
-[19:22:30] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Loading properties
-[19:22:30] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Default game type: SURVIVAL
-[19:22:30] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Generating keypair
-[19:22:30] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting Minecraft server on *:25565
-[19:22:30] [Server thread/INFO] [net.minecraft.network.NetworkSystem]: Using epoll channel type
-[19:22:31] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: AHEAD Target: null
-[19:22:31] [Forge Version Check/INFO] [forge.VersionCheck]: [grue] Starting version check at https://raw.githubusercontent.com/Shinoow/Grue/master/version.json
-[19:22:31] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[19:22:31] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: The server will make no attempt to authenticate usernames. Beware.
-[19:22:31] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[19:22:31] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: To change this, set "online-mode" to "true" in the server.properties file.
-[19:22:31] [Forge Version Check/INFO] [forge.VersionCheck]: [grue] Found status: UP_TO_DATE Target: null
-[19:22:31] [Forge Version Check/INFO] [forge.VersionCheck]: [weeping-angels] Starting version check at https://raw.githubusercontent.com/Suffril/Weeping-Angels-Mod/master/update.json
-[19:22:31] [Forge Version Check/INFO] [forge.VersionCheck]: [darknesslib] Starting version check at https://raw.githubusercontent.com/Shinoow/DarknessLib/master/version.json
-[19:22:31] [Server thread/INFO] [FML]: Applying holder lookups
-[19:22:31] [Server thread/INFO] [FML]: Holder lookups applied
-[19:22:31] [Forge Version Check/INFO] [forge.VersionCheck]: [darknesslib] Found status: UP_TO_DATE Target: null
-[19:22:31] [Server thread/INFO] [xaero.minimap.XaeroMinimap]: Loading Xaero's Minimap - Stage 1/2 (Server)
-[19:22:31] [Server thread/INFO] [Weeping Angels]: Checking for Vivecraft Client...
-[19:22:31] [Server thread/INFO] [Weeping Angels]: Vivecraft not detected!
-[19:22:31] [Server thread/INFO] [FML]: Injecting itemstacks
-[19:22:31] [Server thread/INFO] [FML]: Itemstack injection complete
-[19:22:31] [Server thread/INFO] [DarknessLibAPI]: minecraft:brown_mushroom has been added to the Dynamic Lights List with Light level 1!
-[19:22:31] [Server thread/INFO] [DarknessLibAPI]: minecraft:torch has been added to the Dynamic Lights List with Light level 14!
-[19:22:31] [Server thread/INFO] [DarknessLibAPI]: minecraft:redstone_torch has been added to the Dynamic Lights List with Light level 7!
-[19:22:31] [Server thread/INFO] [DarknessLibAPI]: minecraft:glowstone has been added to the Dynamic Lights List with Light level 15!
-[19:22:31] [Server thread/INFO] [DarknessLibAPI]: minecraft:lit_pumpkin has been added to the Dynamic Lights List with Light level 15!
-[19:22:31] [Server thread/INFO] [DarknessLibAPI]: minecraft:end_portal_frame has been added to the Dynamic Lights List with Light level 1!
-[19:22:31] [Server thread/INFO] [DarknessLibAPI]: minecraft:dragon_egg has been added to the Dynamic Lights List with Light level 1!
-[19:22:31] [Server thread/INFO] [DarknessLibAPI]: minecraft:ender_chest has been added to the Dynamic Lights List with Light level 7!
-[19:22:31] [Server thread/INFO] [DarknessLibAPI]: minecraft:beacon has been added to the Dynamic Lights List with Light level 15!
-[19:22:31] [Server thread/INFO] [DarknessLibAPI]: minecraft:sea_lantern has been added to the Dynamic Lights List with Light level 15!
-[19:22:31] [Server thread/INFO] [DarknessLibAPI]: minecraft:end_rod has been added to the Dynamic Lights List with Light level 14!
-[19:22:31] [Server thread/INFO] [DarknessLibAPI]: minecraft:magma has been added to the Dynamic Lights List with Light level 3!
-[19:22:31] [Server thread/INFO] [DarknessLibAPI]: zmonsters:redbulblight has been added to the Dynamic Lights List with Light level 15!
-[19:22:31] [Server thread/INFO] [DarknessLibAPI]: zmonsters:orangebulblight has been added to the Dynamic Lights List with Light level 15!
-[19:22:31] [Server thread/INFO] [DarknessLibAPI]: zmonsters:yellowbulblight has been added to the Dynamic Lights List with Light level 15!
-[19:22:31] [Server thread/INFO] [DarknessLibAPI]: zmonsters:lightgreenbulblight has been added to the Dynamic Lights List with Light level 15!
-[19:22:31] [Server thread/INFO] [DarknessLibAPI]: zmonsters:greenbulblight has been added to the Dynamic Lights List with Light level 15!
-[19:22:31] [Server thread/INFO] [DarknessLibAPI]: zmonsters:lightbluebulblight has been added to the Dynamic Lights List with Light level 15!
-[19:22:31] [Server thread/INFO] [DarknessLibAPI]: zmonsters:bluebulblight has been added to the Dynamic Lights List with Light level 15!
-[19:22:31] [Server thread/INFO] [DarknessLibAPI]: zmonsters:pinkbulblight has been added to the Dynamic Lights List with Light level 15!
-[19:22:31] [Server thread/INFO] [DarknessLibAPI]: zmonsters:magentabulblight has been added to the Dynamic Lights List with Light level 15!
-[19:22:31] [Server thread/INFO] [DarknessLibAPI]: zmonsters:purplebulblight has been added to the Dynamic Lights List with Light level 15!
-[19:22:31] [Server thread/INFO] [DarknessLibAPI]: zmonsters:brownbulblight has been added to the Dynamic Lights List with Light level 15!
-[19:22:31] [Server thread/INFO] [DarknessLibAPI]: zmonsters:lightgreybulblight has been added to the Dynamic Lights List with Light level 15!
-[19:22:31] [Server thread/INFO] [DarknessLibAPI]: zmonsters:cyanbulblight has been added to the Dynamic Lights List with Light level 15!
-[19:22:31] [Server thread/INFO] [DarknessLibAPI]: zmonsters:greybulblight has been added to the Dynamic Lights List with Light level 15!
-[19:22:31] [Server thread/INFO] [DarknessLibAPI]: zmonsters:blackbulblight has been added to the Dynamic Lights List with Light level 15!
-[19:22:31] [Server thread/INFO] [DarknessLibAPI]: zmonsters:whitebulblight has been added to the Dynamic Lights List with Light level 15!
-[19:22:31] [Server thread/INFO] [xaero.minimap.XaeroMinimap]: Loading Xaero's Minimap - Stage 2/2 (Server)
-[19:22:31] [Server thread/INFO] [FML]: Forge Mod Loader has successfully loaded 14 mods
-[19:22:31] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Preparing level "world"
-[19:22:31] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
-[19:22:31] [Server thread/INFO] [FML]: Applying holder lookups
-[19:22:31] [Server thread/INFO] [FML]: Holder lookups applied
-[19:22:31] [Server thread/INFO] [FML]: Loading dimension 0 (world) (net.minecraft.server.dedicated.DedicatedServer@1b30cc7e)
-[19:22:32] [Netty Epoll Server IO #1/INFO] [FML]: Disconnecting Player: Server is still starting! Please wait before reconnecting.
-[19:22:32] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 498 advancements
-[19:22:32] [Server thread/INFO] [FML]: Loading dimension -1 (world) (net.minecraft.server.dedicated.DedicatedServer@1b30cc7e)
-[19:22:32] [Server thread/INFO] [FML]: Loading dimension 1 (world) (net.minecraft.server.dedicated.DedicatedServer@1b30cc7e)
-[19:22:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
-[19:22:33] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager]: defineId called for: class net.minecraft.entity.monster.EntitySpider from class entity.EntityJohn
-[19:22:33] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 57%
-[19:22:33] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Done (2.282s)! For help, type "help" or "?"
-[19:22:33] [Server thread/INFO] [FML]: Unloading dimension -1
-[19:22:33] [Server thread/INFO] [FML]: Unloading dimension 1
-[19:22:35] [Netty Epoll Server IO #3/INFO] [FML]: Client protocol version 2
-[19:22:35] [Netty Epoll Server IO #3/INFO] [FML]: Client attempting to join with 14 mods : minecraft@1.12.2,zmonsters@1.0.0,FML@8.0.99.99,harvestersnight@1.1.0,darknesslib@1.1.2,grue@1.8.1,xaerominimap_core@1.12.2-1.0,jmr@1.6,slender@1.0.0,forge@14.23.5.2860,bloodmoon@1.5.3,xaerominimap@25.2.10,mcp@9.42,weeping-angels@1.12.2-46
-[19:22:36] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
-[19:22:36] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: crilinxd[/100.115.198.5:49908] logged in with entity id 264 at (177.4622355279284, 58.7967356006687, 235.45864162778338)
-[19:22:36] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: crilinxd joined the game
-[19:22:47] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: crilinxd lost connection: Disconnected
-[19:22:47] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: crilinxd left the game
-[19:26:37] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
-[19:26:37] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
-[19:26:37] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
-[19:26:37] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'world'/overworld
-[19:26:37] [Server thread/INFO] [FML]: Unloading dimension 0
-[19:26:37] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
-[19:26:37] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
-[19:26:37] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
+[20:11:00] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[20:11:00] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[20:11:00] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[20:11:00] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2860 for Minecraft 1.12.2 loading
+[20:11:00] [main/INFO] [FML]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_462, running on Linux:amd64:6.8.0-1030-azure, installed at /usr/lib/jvm/java-8-openjdk-amd64/jre
+[20:11:00] [main/INFO] [FML]: Searching /workspaces/refactored-train/servidor_minecraft/./mods for mods
+[20:11:00] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in Bloodmoon-MC1.12.2-1.5.3.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[20:11:00] [main/WARN] [FML]: The coremod lumien.bloodmoon.asm.LoadingPlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[20:11:00] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in Xaeros_Minimap_25.2.10_Forge_1.12.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[20:11:00] [main/WARN] [FML]: The coremod XaeroMinimapPlugin (xaero.common.core.XaeroMinimapPlugin) is not signed!
+[20:11:00] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[20:11:00] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[20:11:00] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[20:11:00] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[20:11:00] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[20:11:01] [main/INFO] [FML]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
+[20:11:01] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[20:11:01] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[20:11:01] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[20:11:02] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[20:11:02] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[20:11:02] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[20:11:02] [main/INFO] [STDOUT]: [xaero.common.core.transformer.ClassNodeTransformer:transform:29]: Transforming class net.minecraft.server.MinecraftServer net.minecraft.server.MinecraftServer
+[20:11:02] [main/INFO] [STDOUT]: [xaero.common.core.transformer.ClassNodeTransformer:transform:29]: Transforming class pl net.minecraft.server.management.PlayerList
+[20:11:02] [main/INFO] [STDOUT]: [xaero.common.core.transformer.ClassNodeTransformer:transform:29]: Transforming class aed net.minecraft.entity.player.EntityPlayer
+[20:11:02] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
+[20:11:04] [main/INFO] [STDOUT]: [xaero.common.core.transformer.ClassNodeTransformer:transform:29]: Transforming class oq net.minecraft.entity.player.EntityPlayerMP
+[20:11:05] [main/INFO] [STDOUT]: [xaero.common.core.transformer.ClassNodeTransformer:transform:29]: Transforming class bfc net.minecraft.world.storage.SaveFormatOld
+[20:11:05] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.12.2
+[20:11:05] [Server thread/INFO] [FML]: MinecraftForge v14.23.5.2860 Initialized
+[20:11:05] [Server thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[20:11:05] [Server thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
+[20:11:05] [Server thread/INFO] [FML]: Replaced 1227 ore ingredients
+[20:11:05] [Server thread/INFO] [FML]: Searching /workspaces/refactored-train/servidor_minecraft/./mods for mods
+[20:11:06] [Server thread/INFO] [FML]: Forge Mod Loader has identified 14 mods to load
+[20:11:06] [Server thread/WARN] [FML]: Missing English translation for FML: assets/fml/lang/en_us.lang
+[20:11:06] [Server thread/WARN] [FML]: Missing English translation for darknesslib: assets/darknesslib/lang/en_us.lang
+[20:11:06] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, xaerominimap_core, slender, bloodmoon, darknesslib, grue, harvestersnight, jmr, xaerominimap, zmonsters, weeping-angels] at CLIENT
+[20:11:06] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, xaerominimap_core, slender, bloodmoon, darknesslib, grue, harvestersnight, jmr, xaerominimap, zmonsters, weeping-angels] at SERVER
+[20:11:06] [Server thread/INFO] [FML]: Processing ObjectHolder annotations
+[20:11:07] [Server thread/INFO] [FML]: Found 1278 ObjectHolder annotations
+[20:11:07] [Server thread/INFO] [FML]: Identifying ItemStackHolder annotations
+[20:11:07] [Server thread/INFO] [FML]: Found 0 ItemStackHolder annotations
+[20:11:07] [Server thread/INFO] [STDOUT]: [xaero.common.core.transformer.ClassNodeTransformer:transform:29]: Transforming class axw net.minecraft.world.chunk.Chunk
+[20:11:07] [Server thread/INFO] [FML]: Configured a dormant chunk cache size of 0
+[20:11:07] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[20:11:07] [Server thread/INFO] [DarknessLibAPI]: darknesslib added a Light Provider function!
+[20:11:07] [Server thread/INFO] [FML]: Applying holder lookups
+[20:11:07] [Server thread/INFO] [FML]: Holder lookups applied
+[20:11:07] [Server thread/INFO] [FML]: Applying holder lookups
+[20:11:07] [Server thread/INFO] [FML]: Holder lookups applied
+[20:11:07] [Server thread/INFO] [FML]: Applying holder lookups
+[20:11:07] [Server thread/INFO] [FML]: Holder lookups applied
+[20:11:07] [Server thread/INFO] [FML]: Applying holder lookups
+[20:11:07] [Server thread/INFO] [FML]: Holder lookups applied
+[20:11:07] [Server thread/INFO] [FML]: Injecting itemstacks
+[20:11:07] [Server thread/INFO] [FML]: Itemstack injection complete
+[20:11:07] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Loading properties
+[20:11:07] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Default game type: SURVIVAL
+[20:11:07] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Generating keypair
+[20:11:07] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: AHEAD Target: null
+[20:11:07] [Forge Version Check/INFO] [forge.VersionCheck]: [darknesslib] Starting version check at https://raw.githubusercontent.com/Shinoow/DarknessLib/master/version.json
+[20:11:07] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting Minecraft server on *:25565
+[20:11:07] [Forge Version Check/INFO] [forge.VersionCheck]: [darknesslib] Found status: UP_TO_DATE Target: null
+[20:11:07] [Forge Version Check/INFO] [forge.VersionCheck]: [grue] Starting version check at https://raw.githubusercontent.com/Shinoow/Grue/master/version.json
+[20:11:07] [Server thread/INFO] [net.minecraft.network.NetworkSystem]: Using epoll channel type
+[20:11:07] [Forge Version Check/INFO] [forge.VersionCheck]: [grue] Found status: UP_TO_DATE Target: null
+[20:11:07] [Forge Version Check/INFO] [forge.VersionCheck]: [weeping-angels] Starting version check at https://raw.githubusercontent.com/Suffril/Weeping-Angels-Mod/master/update.json
+[20:11:07] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[20:11:07] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: The server will make no attempt to authenticate usernames. Beware.
+[20:11:07] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[20:11:07] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: To change this, set "online-mode" to "true" in the server.properties file.
+[20:11:07] [Server thread/INFO] [FML]: Applying holder lookups
+[20:11:07] [Server thread/INFO] [FML]: Holder lookups applied
+[20:11:07] [Server thread/INFO] [xaero.minimap.XaeroMinimap]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[20:11:07] [Server thread/INFO] [Weeping Angels]: Checking for Vivecraft Client...
+[20:11:07] [Server thread/INFO] [Weeping Angels]: Vivecraft not detected!
+[20:11:07] [Server thread/INFO] [FML]: Injecting itemstacks
+[20:11:07] [Server thread/INFO] [FML]: Itemstack injection complete
+[20:11:07] [Server thread/INFO] [DarknessLibAPI]: minecraft:brown_mushroom has been added to the Dynamic Lights List with Light level 1!
+[20:11:07] [Server thread/INFO] [DarknessLibAPI]: minecraft:torch has been added to the Dynamic Lights List with Light level 14!
+[20:11:07] [Server thread/INFO] [DarknessLibAPI]: minecraft:redstone_torch has been added to the Dynamic Lights List with Light level 7!
+[20:11:07] [Server thread/INFO] [DarknessLibAPI]: minecraft:glowstone has been added to the Dynamic Lights List with Light level 15!
+[20:11:07] [Server thread/INFO] [DarknessLibAPI]: minecraft:lit_pumpkin has been added to the Dynamic Lights List with Light level 15!
+[20:11:07] [Server thread/INFO] [DarknessLibAPI]: minecraft:end_portal_frame has been added to the Dynamic Lights List with Light level 1!
+[20:11:07] [Server thread/INFO] [DarknessLibAPI]: minecraft:dragon_egg has been added to the Dynamic Lights List with Light level 1!
+[20:11:07] [Server thread/INFO] [DarknessLibAPI]: minecraft:ender_chest has been added to the Dynamic Lights List with Light level 7!
+[20:11:07] [Server thread/INFO] [DarknessLibAPI]: minecraft:beacon has been added to the Dynamic Lights List with Light level 15!
+[20:11:07] [Server thread/INFO] [DarknessLibAPI]: minecraft:sea_lantern has been added to the Dynamic Lights List with Light level 15!
+[20:11:07] [Server thread/INFO] [DarknessLibAPI]: minecraft:end_rod has been added to the Dynamic Lights List with Light level 14!
+[20:11:07] [Server thread/INFO] [DarknessLibAPI]: minecraft:magma has been added to the Dynamic Lights List with Light level 3!
+[20:11:07] [Server thread/INFO] [DarknessLibAPI]: zmonsters:redbulblight has been added to the Dynamic Lights List with Light level 15!
+[20:11:07] [Server thread/INFO] [DarknessLibAPI]: zmonsters:orangebulblight has been added to the Dynamic Lights List with Light level 15!
+[20:11:07] [Server thread/INFO] [DarknessLibAPI]: zmonsters:yellowbulblight has been added to the Dynamic Lights List with Light level 15!
+[20:11:07] [Server thread/INFO] [DarknessLibAPI]: zmonsters:lightgreenbulblight has been added to the Dynamic Lights List with Light level 15!
+[20:11:07] [Server thread/INFO] [DarknessLibAPI]: zmonsters:greenbulblight has been added to the Dynamic Lights List with Light level 15!
+[20:11:07] [Server thread/INFO] [DarknessLibAPI]: zmonsters:lightbluebulblight has been added to the Dynamic Lights List with Light level 15!
+[20:11:07] [Server thread/INFO] [DarknessLibAPI]: zmonsters:bluebulblight has been added to the Dynamic Lights List with Light level 15!
+[20:11:07] [Server thread/INFO] [DarknessLibAPI]: zmonsters:pinkbulblight has been added to the Dynamic Lights List with Light level 15!
+[20:11:07] [Server thread/INFO] [DarknessLibAPI]: zmonsters:magentabulblight has been added to the Dynamic Lights List with Light level 15!
+[20:11:07] [Server thread/INFO] [DarknessLibAPI]: zmonsters:purplebulblight has been added to the Dynamic Lights List with Light level 15!
+[20:11:07] [Server thread/INFO] [DarknessLibAPI]: zmonsters:brownbulblight has been added to the Dynamic Lights List with Light level 15!
+[20:11:07] [Server thread/INFO] [DarknessLibAPI]: zmonsters:lightgreybulblight has been added to the Dynamic Lights List with Light level 15!
+[20:11:07] [Server thread/INFO] [DarknessLibAPI]: zmonsters:cyanbulblight has been added to the Dynamic Lights List with Light level 15!
+[20:11:07] [Server thread/INFO] [DarknessLibAPI]: zmonsters:greybulblight has been added to the Dynamic Lights List with Light level 15!
+[20:11:07] [Server thread/INFO] [DarknessLibAPI]: zmonsters:blackbulblight has been added to the Dynamic Lights List with Light level 15!
+[20:11:07] [Server thread/INFO] [DarknessLibAPI]: zmonsters:whitebulblight has been added to the Dynamic Lights List with Light level 15!
+[20:11:07] [Server thread/INFO] [xaero.minimap.XaeroMinimap]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[20:11:08] [Server thread/INFO] [FML]: Forge Mod Loader has successfully loaded 14 mods
+[20:11:08] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Preparing level "world"
+[20:11:08] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
+[20:11:08] [Server thread/INFO] [FML]: Applying holder lookups
+[20:11:08] [Server thread/INFO] [FML]: Holder lookups applied
+[20:11:08] [Server thread/INFO] [FML]: Loading dimension 0 (world) (net.minecraft.server.dedicated.DedicatedServer@6eb2902a)
+[20:11:08] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 498 advancements
+[20:11:08] [Server thread/INFO] [FML]: Loading dimension -1 (world) (net.minecraft.server.dedicated.DedicatedServer@6eb2902a)
+[20:11:08] [Server thread/INFO] [FML]: Loading dimension 1 (world) (net.minecraft.server.dedicated.DedicatedServer@6eb2902a)
+[20:11:08] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
+[20:11:09] [Netty Epoll Server IO #1/INFO] [FML]: Disconnecting Player: Server is still starting! Please wait before reconnecting.
+[20:11:09] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager]: defineId called for: class net.minecraft.entity.monster.EntitySpider from class entity.EntityJohn
+[20:11:09] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 35%
+[20:11:10] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Done (2.141s)! For help, type "help" or "?"
+[20:11:10] [Server thread/INFO] [FML]: Unloading dimension -1
+[20:11:10] [Server thread/INFO] [FML]: Unloading dimension 1
+[20:11:13] [Netty Epoll Server IO #3/INFO] [FML]: Client protocol version 2
+[20:11:13] [Netty Epoll Server IO #3/INFO] [FML]: Client attempting to join with 14 mods : minecraft@1.12.2,zmonsters@1.0.0,FML@8.0.99.99,harvestersnight@1.1.0,darknesslib@1.1.2,grue@1.8.1,xaerominimap_core@1.12.2-1.0,jmr@1.6,slender@1.0.0,forge@14.23.5.2860,bloodmoon@1.5.3,xaerominimap@25.2.10,mcp@9.42,weeping-angels@1.12.2-46
+[20:11:13] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[20:11:13] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: crilinxd[/100.115.198.5:50399] logged in with entity id 254 at (370.7865958385078, 64.0, 674.1700059246556)
+[20:11:13] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: crilinxd joined the game
+[20:11:35] [Netty Epoll Server IO #6/INFO] [FML]: Client protocol version 2
+[20:11:35] [Netty Epoll Server IO #6/INFO] [FML]: Client attempting to join with 15 mods : minecraft@1.12.2,zmonsters@1.0.0,FML@8.0.99.99,harvestersnight@1.1.0,darknesslib@1.1.2,grue@1.8.1,xaerominimap_core@1.12.2-1.0,jmr@1.6,eyesinthedarkness@0.1.0,slender@1.0.0,forge@14.23.5.2859,bloodmoon@1.5.3,xaerominimap@25.2.10,mcp@9.42,weeping-angels@1.12.2-46
+[20:11:36] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[20:11:36] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Ale2137[/100.102.252.108:50576] logged in with entity id 515 at (354.4184114010349, 63.9375, 681.9734898295872)
+[20:11:36] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Ale2137 joined the game
+[20:12:51] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: crilinxd has made the advancement [A Seedy Place]
+[20:14:26] [Server thread/WARN] [FML]: Weeping Angels loaded a new chunk [41, 38] in dimension 0 (overworld) while populating chunk [41, 37], causing cascading worldgen lag.
+[20:14:26] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[20:15:12] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <crilinxd> JAAJKKj
+[20:18:25] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Ale2137 tried to swim in lava to escape crilinxd
+[20:18:33] [Server thread/WARN] [FML]: Weeping Angels loaded a new chunk [61, 28] in dimension 0 (overworld) while populating chunk [60, 27], causing cascading worldgen lag.
+[20:18:33] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[20:18:39] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: crilinxd was eaten by a Grue
+[20:20:09] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: crilinxd was slain by BabyJohn
+[20:20:26] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Ale2137 lost connection: Disconnected
+[20:20:26] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Ale2137 left the game
+[20:20:26] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <crilinxd> XD
+[20:20:29] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: crilinxd lost connection: Disconnected
+[20:20:29] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: crilinxd left the game
