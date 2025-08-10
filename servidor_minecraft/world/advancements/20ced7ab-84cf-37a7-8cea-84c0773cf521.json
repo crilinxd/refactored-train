@@ -65,9 +65,21 @@
     },
     "done": true
   },
+  "minecraft:husbandry/balanced_diet": {
+    "criteria": {
+      "cooked_beef": "2025-08-10 18:56:51 +0000"
+    },
+    "done": false
+  },
   "minecraft:recipes/tools/wooden_hoe": {
     "criteria": {
       "has_stick": "2025-08-09 23:16:28 +0000"
+    },
+    "done": true
+  },
+  "slender:thequest": {
+    "criteria": {
+      "thequest": "2025-08-10 18:51:42 +0000"
     },
     "done": true
   },
@@ -103,7 +115,8 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "savanna": "2025-08-09 22:43:45 +0000"
+      "savanna": "2025-08-09 22:43:45 +0000",
+      "savanna_rock": "2025-08-10 18:58:47 +0000"
     },
     "done": false
   },
@@ -128,6 +141,12 @@
   "minecraft:recipes/decorations/ladder": {
     "criteria": {
       "has_stick": "2025-08-09 23:16:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2025-08-10 18:56:51 +0000"
     },
     "done": true
   },
@@ -212,6 +231,12 @@
   "minecraft:recipes/redstone/acacia_fence_gate": {
     "criteria": {
       "has_planks": "2025-08-09 23:16:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/arrow": {
+    "criteria": {
+      "has_feather": "2025-08-10 18:58:07 +0000"
     },
     "done": true
   },
