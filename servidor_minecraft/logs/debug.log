@@ -5810,3 +5810,40 @@ Caused by: java.io.FileNotFoundException: https://raw.githubusercontent.com/Suff
 [00:26:01] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
 [00:26:46] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
 [00:27:31] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:28:16] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:29:01] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:29:46] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:30:31] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:31:16] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:32:01] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:32:46] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:33:31] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:34:16] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:35:01] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:35:46] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:36:31] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:36:40] [Server thread/TRACE] [FML]: Handshake channel activating
+[00:36:40] [Server thread/DEBUG] [FML]: FMLHandshakeServerState: null->FMLHandshakeServerState$1:START
+[00:36:40] [Server thread/DEBUG] [FML]:   Next: HELLO
+[00:36:41] [Netty Epoll Server IO #1/DEBUG] [FML]: FMLHandshakeServerState: $ClientHello->FMLHandshakeServerState$2:HELLO
+[00:36:41] [Netty Epoll Server IO #1/INFO] [FML]: Client protocol version 2
+[00:36:41] [Netty Epoll Server IO #1/DEBUG] [FML]: FMLHandshakeServerState: $ModList:15 mods->FMLHandshakeServerState$2:HELLO
+[00:36:41] [Netty Epoll Server IO #1/INFO] [FML]: Client attempting to join with 15 mods : minecraft@1.12.2,zmonsters@1.0.0,FML@8.0.99.99,harvestersnight@1.1.0,darknesslib@1.1.2,grue@1.8.1,xaerominimap_core@1.12.2-1.0,jmr@1.6,eyesinthedarkness@0.1.0,slender@1.0.0,forge@14.23.5.2859,bloodmoon@1.5.3,xaerominimap@25.2.10,mcp@9.42,weeping-angels@1.12.2-46
+[00:36:41] [Netty Epoll Server IO #1/DEBUG] [FML]:   Next: WAITINGCACK
+[00:36:41] [Netty Epoll Server IO #1/DEBUG] [FML]: FMLHandshakeServerState: $HandshakeAck:{2}->FMLHandshakeServerState$3:WAITINGCACK
+[00:36:41] [Netty Epoll Server IO #1/DEBUG] [FML]:   Next: COMPLETE
+[00:36:42] [Netty Epoll Server IO #1/DEBUG] [FML]: FMLHandshakeServerState: $HandshakeAck:{3}->FMLHandshakeServerState$4:COMPLETE
+[00:36:42] [Netty Epoll Server IO #1/DEBUG] [FML]:   Next: DONE
+[00:36:42] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[00:36:42] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Ale2137[/100.102.252.108:63518] logged in with entity id 6757 at (-112.5, 67.0, 316.5)
+[00:36:42] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Ale2137 joined the game
+[00:36:42] [Netty Epoll Server IO #1/DEBUG] [FML]: FMLHandshakeServerState: $HandshakeAck:{4}->FMLHandshakeServerState$5:DONE
+[00:36:42] [Netty Epoll Server IO #1/DEBUG] [FML]: FMLHandshakeServerState: $HandshakeAck:{5}->FMLHandshakeServerState$5:DONE
+[00:37:16] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:37:21] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <Ale2137> me quiero cortar la bola izq
+[00:37:24] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <Ale2137> kjaskjasj
+[00:37:28] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <Ale2137> kbrone los que lean
+[00:37:34] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <Ale2137> ojito
+[00:37:36] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <Ale2137> lei yo
+[00:37:38] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <Ale2137> hawoihfohwuof
+[00:37:41] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <Ale2137> crilintamae
